@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../images/logo.png';
+import Introduction from '../layout/Introduction';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -33,23 +34,9 @@ const Home = () => {
             <div className='column right'></div>
           </div>
         </div>
+        <i id='banner-arrow' class='fas fa-3x fa-arrow-down'></i>
       </div>
-      <div className='container'>
-        <h3>Matthew Woodroffe, Owner</h3>
-        <h4>MADE BARBERS</h4>
-        <p>
-          My mother was a hairdresser, i have 4 sisters, they cut hair. I Grew
-          up in a salon all of my life. I’ve been involved in the industry of
-          hair since I was born. We like to get to know who you are as a person,
-          what you’ve been up-to. You get to know us as people you get a haircut
-          that is going to suit you, suit your lifestyle, so that you walk out
-          of this shop feeling like the best version of you. We dont want to be
-          any barber, we want to be YOUR barber…
-          <br />
-          <br />
-          And the banter is amazing
-        </p>
-      </div>
+      <Introduction />
     </div>
   );
 };

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&display=swap');
 
+:root {
+  --pink: #d64065;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -8,6 +12,7 @@ body {
   color: whitesmoke;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
+  background-color: #d8d8d8;
 }
 
 h1 {
@@ -38,6 +43,7 @@ p {
 
 .right {
   width: 70%;
+  position: relative;
 }
 
 .logo {
@@ -57,21 +63,66 @@ p {
     url(./components/images/banner-bg.jpg);
 
   background-position: center top;
+  border-radius: 0 0 15rem 0;
+  position: relative;
+}
+
+#banner-arrow {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  color: var(--pink);
 }
 
 .book-now {
-  background-color: #d64065;
+  background-color: var(--pink);
   text-decoration: none;
   color: whitesmoke;
   font-family: 'Roboto', sans-serif;
   font-size: 1.3rem;
   padding: 1rem 3rem;
-  border: 3px solid #d64065;
+  border: 3px solid var(--pink);
   border-radius: 3rem;
   transition: 0.3s;
 }
 
 .book-now:hover {
   background-color: transparent;
-  color: #d64065;
+  color: var(--pink);
+}
+
+/* INTRODUCTION STYLE */
+.introduction-box {
+  padding: 2rem;
+}
+
+.introduction {
+  padding: 3rem;
+  text-align: center;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.introduction-img-box {
+  width: 240px;
+  height: 240px;
+  margin: auto;
+  text-align: center;
+}
+
+.introduction img {
+  border-radius: 50%;
+  width: 230px;
+  transition: 0.3s;
+}
+
+.introduction img:hover {
+  width: 235px;
+  box-shadow: var(--pink) 0 0 5px 0;
+  border: 1px solid var(--pink);
+}
+
+.introduction i {
+  color: var(--pink);
+  margin: 2rem;
 }
