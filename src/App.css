@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  color: whitesmoke;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 2.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(155, 155, 155);
+}
+
+.row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.column {
+  float: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+.logo {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+#main-banner {
+  width: 100%;
+  padding-top: 3rem;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
+    url(./components/images/banner-bg.jpg);
+
+  background-position: center top;
+}
+
+.book-now {
+  background-color: #d64065;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  padding: 1rem 3rem;
+  border: 3px solid #d64065;
+  border-radius: 3rem;
+  transition: 0.3s;
+}
+
+.book-now:hover {
+  background-color: transparent;
+  color: #d64065;
 }
