@@ -106,6 +106,29 @@ a {
   color: var(--pink);
 }
 
+/* CONTENT STYLE */
+.content {
+  border: 1px solid grey;
+  border-radius: 1rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  color: var(--pink);
+}
+
+td {
+  text-align: center;
+}
+
 /* INTRODUCTION STYLE */
 .introduction-box {
   padding-top: 2rem;
