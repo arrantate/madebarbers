@@ -29,6 +29,12 @@ p {
   color: rgb(155, 155, 155);
 }
 
+a {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(155, 155, 155);
+  text-decoration: none;
+}
+
 .row {
   display: flex;
 }
@@ -56,10 +62,19 @@ p {
   margin: auto;
 }
 
+.vertical-line {
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  bottom: 0;
+  left: -4rem;
+  background-color: var(--pink);
+}
+
 #main-banner {
   width: 100%;
-  height: 96vh;
-  padding-top: 3rem;
+  height: 100vh;
+  padding-top: 0;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
     url(./components/images/banner-bg.jpg);
   background-position: center top;
@@ -93,12 +108,12 @@ p {
 
 /* INTRODUCTION STYLE */
 .introduction-box {
-  padding: 2rem;
+  padding-top: 2rem;
 }
 
 .introduction {
+  position: relative;
   padding: 3rem;
-  text-align: center;
   background-color: whitesmoke;
   color: black;
 }
@@ -125,4 +140,29 @@ p {
 .introduction i {
   color: var(--pink);
   margin: 2rem;
+}
+
+/* NAV BAR STYLE */
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  border-bottom: 1px solid #555;
+  display: inline;
+  margin: 0 3rem;
+}
+
+.nav-link {
+  color: whitesmoke;
 }
