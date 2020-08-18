@@ -169,7 +169,7 @@ td {
 nav {
   position: fixed;
   width: 100%;
-  top: 0;
+  top: 1rem;
   z-index: 2;
   text-align: center;
 }
@@ -181,11 +181,17 @@ nav ul {
 }
 
 nav li {
-  border-bottom: 1px solid #555;
   display: inline;
   margin: 0 3rem;
 }
 
 .nav-link {
   color: whitesmoke;
+  font-size: 1.3rem;
+}
+
+.nav-link:hover {
+  color: whitesmoke;
+  font-size: 1.3rem;
+  text-decoration: underline;
 }
