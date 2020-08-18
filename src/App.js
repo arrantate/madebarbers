@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './components/layout/Nav';
 import Home from './components/pages/Home';
-import Prices from './components/pages/Prices';
+import Booking from './components/pages/Booking';
 import logo from './components/images/logo.png';
 import Introduction from './components/layout/Introduction';
 import Map from './components/layout/Map';
@@ -45,7 +45,7 @@ function App() {
             <div className='column right'>
               <Switch>
                 <Route exact path='/' component={Home} />
-                <Route exact path='/prices' component={Prices} />
+                <Route exact path='/booking' component={Booking} />
               </Switch>
             </div>
           </div>

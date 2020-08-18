@@ -45,8 +45,8 @@ a {
 }
 
 .logo {
-  width: 80%;
-  margin: 3rem auto;
+  width: 30%;
+  margin: 1rem auto;
 }
 
 .container {
@@ -54,26 +54,8 @@ a {
   margin: auto;
 }
 
-@media (min-width: 1000px) {
-  /* CSS styles for viewports 1000px and up */
-  .container {
-    width: 1000px;
-    margin: auto;
-  }
-
-  #main-banner {
-    height: 100vh;
-    border-radius: 0 0 15rem 0;
-  }
-
-  .left {
-    width: 30%;
-  }
-
-  .right {
-    width: 70%;
-    position: relative;
-  }
+.left {
+  display: none;
 }
 
 .vertical-line {
@@ -94,15 +76,13 @@ a {
   position: relative;
 }
 
-@media (in-width: 1000px) {
-  /* CSS styles for viewports 1000px and up */
+#banner-arrow {
+  display: none;
 }
 
-#banner-arrow {
-  position: absolute;
-  right: 1rem;
-  bottom: 1rem;
-  color: var(--pink);
+.home {
+  display: block;
+  padding: 1rem;
 }
 
 .book-now {
@@ -127,8 +107,7 @@ a {
   border: 1px solid grey;
   border-radius: 1rem;
   width: 80%;
-  margin: auto;
-  margin-top: 3rem;
+  margin: 1rem auto 2rem auto;
   padding: 2rem;
   background: rgba(0, 0, 0, 0.7);
 }
@@ -185,9 +164,10 @@ td {
 nav {
   position: fixed;
   width: 100%;
-  top: 1rem;
+  padding: 1rem 0;
   z-index: 2;
   text-align: center;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 nav ul {
@@ -202,12 +182,63 @@ nav li {
 }
 
 .nav-link {
-  color: whitesmoke;
+  color: var(--pink);
   font-size: 1.3rem;
 }
 
 .nav-link:hover {
-  color: whitesmoke;
   font-size: 1.3rem;
   text-decoration: underline;
+}
+
+@media (min-width: 1000px) {
+  /* CSS styles for viewports 1000px and up */
+  .container {
+    width: 1000px;
+    margin: auto;
+  }
+
+  #main-banner {
+    height: 100vh;
+    border-radius: 0 0 15rem 0;
+  }
+
+  .logo {
+    width: 80%;
+    margin: 3rem auto;
+  }
+
+  .left {
+    width: 30%;
+    display: block;
+  }
+
+  .right {
+    width: 70%;
+    position: relative;
+  }
+
+  #banner-arrow {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    color: var(--pink);
+  }
+
+  .home {
+    display: none;
+  }
+
+  nav {
+    background: none;
+  }
+
+  .nav-link {
+    color: white;
+  }
+
+  .content {
+    margin: 3rem auto 2rem auto;
+  }
 }

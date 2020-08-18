@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Prices = () => {
+const Booking = () => {
   return (
     <div className='content'>
       <h2 style={{ textAlign: 'center' }}>PRICES</h2>
@@ -96,4 +96,4 @@ const Prices = () => {
   );
 };
 
-export default Prices;
+export default Booking;
