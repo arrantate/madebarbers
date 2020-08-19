@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Profile from './Profile';
 
 const Barbers = () => {
-  const [barbers, setBarbers] = useState([
+  const [barbers] = useState([
     {
       name: 'Jay',
       description:
