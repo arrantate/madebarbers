@@ -2,6 +2,8 @@ import React from 'react';
 import Nav from './components/layout/Nav';
 import Home from './components/pages/Home';
 import Booking from './components/pages/Booking';
+import BookSouthG from './components/pages/BookSouthG';
+import BookGateshead from './components/pages/BookGateshead';
 import logo from './components/images/logo.png';
 import Introduction from './components/layout/Introduction';
 import Map from './components/layout/Map';
@@ -33,7 +35,7 @@ function App() {
                 Gateshead - Newcastle.
               </p>
               <div style={{ textAlign: 'center', padding: '5rem 0 5.5rem 0' }}>
-                <Link to='#' className='book-now'>
+                <Link to='/booking' className='book-now'>
                   <i
                     className='fas fa-cut'
                     style={{ margin: '0 1rem 0 0' }}
@@ -46,6 +48,12 @@ function App() {
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route exact path='/booking' component={Booking} />
+                <Route
+                  exact
+                  path='/book-south-gosforth'
+                  component={BookSouthG}
+                />
+                <Route exact path='/book-gateshead' component={BookGateshead} />
               </Switch>
             </div>
           </div>
