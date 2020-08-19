@@ -77,7 +77,8 @@ a {
   min-height: 100vh;
   padding-top: 0;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
-    url(./components/images/banner-bg.jpg);
+    url(./components/images/banner-bg.jpg) black;
+  background-repeat: no-repeat;
   background-position: center top;
   position: relative;
 }
@@ -191,7 +192,7 @@ nav ul {
 
 nav li {
   display: inline;
-  margin: 0 3rem;
+  margin: 0 1.5rem;
 }
 
 .nav-link {
@@ -245,6 +246,10 @@ nav li {
 
   nav {
     background: none;
+  }
+
+  .nav li {
+    margin: 0 3rem;
   }
 
   .nav-link {

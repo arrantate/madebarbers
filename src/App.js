@@ -4,6 +4,7 @@ import Home from './components/pages/Home';
 import Booking from './components/pages/Booking';
 import BookSouthG from './components/pages/BookSouthG';
 import BookGateshead from './components/pages/BookGateshead';
+import Barbers from './components/pages/Barbers';
 import logo from './components/images/logo.png';
 import Introduction from './components/layout/Introduction';
 import Map from './components/layout/Map';
@@ -30,9 +31,9 @@ function App() {
               <h2>A CUT THAT MAKES YOU</h2>
               <p>
                 A passion for barbering and customer service. Join the many
-                happy Made Barbers UK Newcastle client's today for a haircut
-                that is made for you. We have shops based in Gosforth and
-                Gateshead - Newcastle.
+                happy Made Barbers UK Newcastle clients today for a haircut that
+                is made for you. We have shops based in Gosforth and Gateshead -
+                Newcastle.
               </p>
               <div style={{ textAlign: 'center', padding: '5rem 0 5.5rem 0' }}>
                 <Link to='/booking' className='book-now'>
@@ -54,6 +55,7 @@ function App() {
                   component={BookSouthG}
                 />
                 <Route exact path='/book-gateshead' component={BookGateshead} />
+                <Route exact path='/barbers' component={Barbers} />
               </Switch>
             </div>
           </div>

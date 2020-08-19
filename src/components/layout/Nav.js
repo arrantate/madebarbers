@@ -15,6 +15,11 @@ const Nav = () => {
             Booking
           </NavLink>
         </li>
+        <li>
+          <NavLink to='/barbers' className='nav-link'>
+            Barbers
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );

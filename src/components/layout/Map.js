@@ -29,7 +29,7 @@ const Map = () => {
               style={{ margin: '0.5rem', fontWeight: 'bold' }}
             >
               {' '}
-              MADE BARBERS on Instagram
+              MADEBARBERSUK on Instagram
             </i>
           </a>
         </p>

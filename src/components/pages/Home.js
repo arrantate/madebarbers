@@ -15,11 +15,11 @@ const Home = () => {
       <h2>A CUT THAT MAKES YOU</h2>
       <p>
         A passion for barbering and customer service. Join the many happy Made
-        Barbers UK Newcastle client's today for a haircut that is made for you.
+        Barbers UK Newcastle clients today for a haircut that is made for you.
         We have shops based in Gosforth and Gateshead - Newcastle.
       </p>
       <div style={{ textAlign: 'center', padding: '5rem 0 5.5rem 0' }}>
-        <Link to='#' className='book-now'>
+        <Link to='/booking' className='book-now'>
           <i className='fas fa-cut' style={{ margin: '0 1rem 0 0' }}></i>
           Book Now!
         </Link>
