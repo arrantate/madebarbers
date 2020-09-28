@@ -2,10 +2,8 @@ import React from 'react';
 import Nav from './components/layout/Nav';
 import Home from './components/pages/Home';
 import Barbers from './components/pages/Barbers';
-import logo from './components/images/logo.png';
 import Introduction from './components/layout/Introduction';
 import Map from './components/layout/Map';
-import { Link } from 'react-router-dom';
 
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
