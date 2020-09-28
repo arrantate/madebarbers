@@ -7,7 +7,7 @@ const Introduction = () => {
       <div className='introduction' style={{ textAlign: 'center' }}>
         <div className='vertical-line'></div>
         <div className='introduction-img-box'>
-          <img src={matt} alt=''></img>
+          <img loading='lazy' src={matt} alt=''></img>
         </div>
         <h2>Matthew Woodroffe, Owner</h2>
         <p>
