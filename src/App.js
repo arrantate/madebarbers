@@ -2,8 +2,8 @@ import React from 'react';
 import Nav from './components/layout/Nav';
 import Home from './components/pages/Home';
 import Barbers from './components/pages/Barbers';
-import Introduction from './components/layout/Introduction';
 import Map from './components/layout/Map';
+import Widget from './components/Widget';
 
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -19,6 +19,8 @@ function App() {
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route exact path='/barbers' component={Barbers} />
+
+                <Route exact path='/widget' component={Widget} />
               </Switch>
             
         </div>
@@ -27,15 +29,13 @@ function App() {
       <br />
       <div className='container introduction' style={{ padding: '0' }}>
         <div className='vertical-line'></div>
-        <div id="nearcut" data-domain="https://iframe-12059.nearcut.com"></div>
+        <iframe id="booksy" style={{ width: '100%', height: "100vh", overflow: 'visible !important' }} src="https://booksy.com/en-gb/instant-experiences/widget/7616"></iframe>
         </div>
   
       
       
-      
       <Map />
-      <Introduction />
-      
+
       <br />
     </Router>
   );

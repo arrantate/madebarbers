@@ -18,20 +18,6 @@ const Barbers = () => {
         'Tue 0900 - 2000 | Thu 0730 - 1730 | Fri 0700 - 1800 | Sat 0630 - 1500',
     },
     {
-      name: 'Natalie',
-      description:
-        'If you asked Matthew about Natalie he would say she is one of the hardest working women he has ever met. She puts in the hours and her hard working attitude is paying off. She is always picking on Matthew and Jay for being Nerds and she can give one of the best skin fades in the toon!',
-      availability:
-        'Mon 0900 - 1800 | Wed 0900 - 1800 | Thu 0900 - 1900 | Fri 0900 - 1800 | Sat 0800 - 1600',
-    },
-    {
-      name: 'Zoe',
-      description:
-        'Zoe is the latest edition to the team at Made. Bringing with her over 10 years worth of experience, a fun personality, and big smile. She began her career as a hairdresser and moved into barbering. She can color and perm hair as well as giving a lovely gentleman’s cut.',
-      availability:
-        'Mon 0900 - 1800 | Tue 0900 - 1900 | Thu 0900 - 1800 | Fri 0900 - 1800 | Sat 0800 - 1600',
-    },
-    {
       name: 'Ellen',
       description:
         'With her high pitched voice and 4ft 11 inches of swagger. Matthews older sister has brought 25 years of hairdressing experience with her. Whether its colouring, perming or eyebrow waxing she has accumulated a wide range of skills in the beauty industry.',

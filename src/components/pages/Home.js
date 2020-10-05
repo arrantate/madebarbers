@@ -1,7 +1,10 @@
 import React from 'react';
 import logo from '../images/logo.png';
+import Widget from '../Widget'
 
 const Home = () => {
+
+
   return (
     <div className='row'>
       <div className='column left'>
@@ -19,14 +22,19 @@ const Home = () => {
           is made for you. We have shops based in South Gosforth and Morpeth -
           Newcastle.
         </p>
+        
         <div style={{ textAlign: 'center', padding: '5rem 0 5.5rem 0' }}>
-          <a href='#nearcut' className='book-now'>
+          {/* <a href='#nearcut' className='book-now'>
             <i
               className='fas fa-cut'
               style={{ margin: '0 1rem 0 0' }}
             ></i>
             Book Now!
-          </a>
+          </a> */}
+{/* 
+          <div className="booksy-widget-container booksy-widget-container-dialog booksy-widget-container-default booksy-widget-container-en"><div className="booksy-widget-button"></div></div>
+          */}
+          
         </div>
       </div>
       <div className='column right'>
@@ -38,6 +46,8 @@ const Home = () => {
         
         </div>
       </div>
+
+      
     </div>
 
     
