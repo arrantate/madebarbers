@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../images/logo.png';
-import Widget from '../Widget'
 
 const Home = () => {
 

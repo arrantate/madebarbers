@@ -29,7 +29,7 @@ function App() {
       <br />
       <div className='container introduction' style={{ padding: '0' }}>
         <div className='vertical-line'></div>
-        <iframe id="booksy" style={{ width: '100%', height: "100vh", overflow: 'visible !important' }} src="https://booksy.com/en-gb/instant-experiences/widget/7616"></iframe>
+        <iframe title="Booking" id="booksy" style={{ width: '100%', height: "100vh", overflow: 'visible !important' }} src="https://booksy.com/en-gb/instant-experiences/widget/7616"></iframe>
         </div>
   
       
