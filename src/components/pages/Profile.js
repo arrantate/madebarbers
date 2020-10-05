@@ -7,7 +7,6 @@ const Profile = ({ barber }) => {
     <div>
       <h2 style={{ color: 'var(--pink)', textAlign: 'center' }}>{name}</h2>
       <p>{description}</p>
-      <p style={{ fontSize: '0.9rem' }}>{availability}</p>
     </div>
   );
 };
