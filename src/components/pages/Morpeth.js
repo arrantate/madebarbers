@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import CarouselMorpeth from '../layout/CarouselMorpeth';
 
 import MapMorpeth from '../layout/MapMorpeth'
 
 const Morpeth = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className='content'>
       <h1>The Iron Pencil - Morpeth</h1>
