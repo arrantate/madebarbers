@@ -2,7 +2,7 @@
 // import matt from '../images/barbers/matt.jpg';
 
 
-// const Carousel = () => {
+// const CarouselGosforth = () => {
 //   return (
 //     <div>
 //         <img className='logo' src={matt} alt='logo'></img>
@@ -10,7 +10,7 @@
 //   )
 // }
 
-// export default Carousel;
+// export default CarouselGosforth;
 
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -23,7 +23,7 @@ import img4 from '../images/shops/img4.jpeg';
 import img5 from '../images/shops/img5.jpeg';
 
 
-class Carousel extends React.Component {
+class CarouselGosforth extends React.Component {
     constructor(props){
         super(props);
 
@@ -49,7 +49,7 @@ class Carousel extends React.Component {
     }
 }
 
-Carousel.propTypes = {
+CarouselGosforth.propTypes = {
     images: PropTypes.arrayOf(
         PropTypes.shape({
             src: PropTypes.string.isRequired,
@@ -65,7 +65,7 @@ Carousel.propTypes = {
     ).isRequired
 };
 
-Carousel.defaultProps = {
+CarouselGosforth.defaultProps = {
     images: [
         {
             thumbnail: img1,
@@ -95,4 +95,4 @@ Carousel.defaultProps = {
     ]
 };
 
-export default Carousel;
+export default CarouselGosforth;

@@ -29,13 +29,7 @@ function App() {
         </div>
         <i id='banner-arrow' className='fas fa-3x fa-arrow-down'></i>
       </div>
-      <br />
-  
       
-      
-      <Map />
-
-      <br />
     </Router>
   );
 }

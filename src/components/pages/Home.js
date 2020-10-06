@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../images/logo.png';
 import { Link } from 'react-router-dom';
-import Carousel from '../layout/Carousel';
 
 const Home = () => {
 
@@ -38,7 +37,6 @@ const Home = () => {
       <div className='column right'>
       
         <div className='content'>
-        <Carousel />
           <h2 style={{ color: 'var(--pink)', textAlign: 'center' }}>New Shop!</h2>
           <p>Made Barbers UK is teaming up with The Iron Pencil tattoo studio in Morpeth.</p>
           <p>We are setting up shop together to provide you with two top notch services.  We will be closing the gateshead shop but don't worry! The original Made Barbers in South Gosforth will still be open as usual.</p>
