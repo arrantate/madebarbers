@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from '../images/logo.png';
 import Book from './Book'
 
 const Home = () => {
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className='row'>
