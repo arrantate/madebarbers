@@ -1,9 +1,11 @@
 import React from 'react';
 import Nav from './components/layout/Nav';
 import Home from './components/pages/Home';
+import Book from './components/pages/Book';
+import Morpeth from './components/pages/Morpeth';
+import Gosforth from './components/pages/Gosforth';
 import Barbers from './components/pages/Barbers';
 import Map from './components/layout/Map';
-import Widget from './components/Widget';
 
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -19,18 +21,15 @@ function App() {
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route exact path='/barbers' component={Barbers} />
-
-                <Route exact path='/widget' component={Widget} />
+                <Route exact path='/book' component={Book} />
+                <Route exact path='/book-morpeth' component={Morpeth} />
+                <Route exact path='/book-gosforth' component={Gosforth} />
               </Switch>
             
         </div>
         <i id='banner-arrow' className='fas fa-3x fa-arrow-down'></i>
       </div>
       <br />
-      <div className='container introduction' style={{ padding: '0' }}>
-        <div className='vertical-line'></div>
-        <iframe title="Booking" id="booksy" style={{ width: '100%', height: "100vh", overflow: 'visible !important' }} src="https://booksy.com/en-gb/instant-experiences/widget/7616"></iframe>
-        </div>
   
       
       

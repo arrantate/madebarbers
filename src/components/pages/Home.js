@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../images/logo.png';
+import { Link } from 'react-router-dom';
+import Carousel from '../layout/Carousel';
 
 const Home = () => {
 
@@ -23,27 +25,27 @@ const Home = () => {
         </p>
         
         <div style={{ textAlign: 'center', padding: '5rem 0 5.5rem 0' }}>
-          {/* <a href='#nearcut' className='book-now'>
+          <Link to='/book' className='book-now'>
             <i
               className='fas fa-cut'
               style={{ margin: '0 1rem 0 0' }}
             ></i>
             Book Now!
-          </a> */}
-{/* 
-          <div className="booksy-widget-container booksy-widget-container-dialog booksy-widget-container-default booksy-widget-container-en"><div className="booksy-widget-button"></div></div>
-          */}
+          </Link>
           
         </div>
       </div>
       <div className='column right'>
+      
         <div className='content'>
-          <h2 style={{ color: 'var(--pink)', textAlign: 'center' }}>News!</h2>
+        <Carousel />
+          <h2 style={{ color: 'var(--pink)', textAlign: 'center' }}>New Shop!</h2>
           <p>Made Barbers UK is teaming up with The Iron Pencil tattoo studio in Morpeth.</p>
           <p>We are setting up shop together to provide you with two top notch services.  We will be closing the gateshead shop but don't worry! The original Made Barbers in South Gosforth will still be open as usual.</p>
-          <p>You can <a href='#nearcut' style={{textDecoration: 'underline'}}>book an appointment</a> in either of our shops either online or using the mobile app.</p>
-        
+          <p>You can <Link to='/book' style={{textDecoration: 'underline'}}>book an appointment</Link> online, or by downloading the Boosky app.</p>
+          
         </div>
+        
       </div>
 
       
