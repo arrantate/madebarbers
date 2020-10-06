@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../images/logo.png';
 import { Link } from 'react-router-dom';
+import Book from './Book'
 
 const Home = () => {
 
@@ -23,7 +24,7 @@ const Home = () => {
           Newcastle.
         </p>
         
-        <div style={{ textAlign: 'center', padding: '5rem 0 5.5rem 0' }}>
+        {/* <div style={{ textAlign: 'center', padding: '5rem 0 5.5rem 0' }}>
           <Link to='/book' className='book-now'>
             <i
               className='fas fa-cut'
@@ -32,10 +33,10 @@ const Home = () => {
             Book Now!
           </Link>
           
-        </div>
+        </div> */}
       </div>
       <div className='column right'>
-      
+        <Book />
         <div className='content'>
           <h2 style={{ color: 'var(--pink)', textAlign: 'center' }}>New Shop!</h2>
           <p>Made Barbers UK is teaming up with The Iron Pencil tattoo studio in Morpeth.</p>

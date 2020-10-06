@@ -16,11 +16,11 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import Gallery from 'react-grid-gallery';
 
-import img1 from '../images/shops/img1.jpeg';
-import img2 from '../images/shops/img2.jpeg';
-import img3 from '../images/shops/img3.jpeg';
-import img4 from '../images/shops/img4.jpeg';
-import img5 from '../images/shops/img5.jpeg';
+import img1 from '../images/morpeth/img1.jpeg';
+import img2 from '../images/morpeth/img2.jpeg';
+import img3 from '../images/morpeth/img3.jpeg';
+import img4 from '../images/morpeth/img4.jpeg';
+import img5 from '../images/morpeth/img5.jpeg';
 
 
 class CarouselMorpeth extends React.Component {
