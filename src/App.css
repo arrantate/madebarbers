@@ -135,6 +135,18 @@ td {
   display: block;
 }
 
+.headshot-box {
+  width: 240px;
+  margin: auto;
+  text-align: center;
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 150px;
+  transition: 0.3s;
+}
+
 /* INTRODUCTION STYLE */
 .introduction-box {
   padding-top: 2rem;
@@ -147,18 +159,9 @@ td {
   color: black;
 }
 
-.introduction-img-box {
-  width: 240px;
-  height: 240px;
-  margin: auto;
-  text-align: center;
-}
 
-.introduction img {
-  border-radius: 50%;
-  width: 230px;
-  transition: 0.3s;
-}
+
+
 
 .introduction img:hover {
   width: 235px;

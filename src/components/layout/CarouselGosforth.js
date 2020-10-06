@@ -1,5 +1,5 @@
 // import React from 'react'
-// import matt from '../images/barbers/matt.jpg';
+// import matt from '../images/barbers/matt.png';
 
 
 // const CarouselGosforth = () => {
@@ -16,11 +16,13 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import Gallery from 'react-grid-gallery';
 
-import img1 from '../images/morpeth/img1.jpeg';
-import img2 from '../images/morpeth/img2.jpeg';
-import img3 from '../images/morpeth/img3.jpeg';
-import img4 from '../images/morpeth/img4.jpeg';
-import img5 from '../images/morpeth/img5.jpeg';
+import img1 from '../images/gosforth/img1.png';
+import img2 from '../images/gosforth/img2.png';
+import img3 from '../images/gosforth/img3.png';
+import img4 from '../images/gosforth/img4.png';
+import img5 from '../images/gosforth/img5.png';
+import img6 from '../images/gosforth/img6.png';
+import img7 from '../images/gosforth/img7.png';
 
 
 class CarouselGosforth extends React.Component {
@@ -69,28 +71,38 @@ CarouselGosforth.defaultProps = {
     images: [
         {
             thumbnail: img1,
-            thumbnailWidth: 1600,
-            thumbnailHeight: 1600,
+            thumbnailWidth: 400,
+            thumbnailHeight: 500,
         },
         {
             thumbnail: img2,
-            thumbnailWidth: 1600,
-            thumbnailHeight: 1600,
+            thumbnailWidth: 200,
+            thumbnailHeight: 300,
         },
         {
             thumbnail: img3,
-            thumbnailWidth: 1600,
-            thumbnailHeight: 1600,
+            thumbnailWidth: 200,
+            thumbnailHeight: 250,
         },
         {
             thumbnail: img4,
-            thumbnailWidth: 1067,
-            thumbnailHeight: 1600,
+            thumbnailWidth: 200,
+            thumbnailHeight: 113,
         },
         {
             thumbnail: img5,
-            thumbnailWidth: 1600,
-            thumbnailHeight: 1067,
+            thumbnailWidth: 200,
+            thumbnailHeight: 160,
+        },
+        {
+            thumbnail: img6,
+            thumbnailWidth: 200,
+            thumbnailHeight: 250,
+        },
+        {
+            thumbnail: img7,
+            thumbnailWidth: 200,
+            thumbnailHeight: 250,
         },
     ]
 };

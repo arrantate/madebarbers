@@ -11,8 +11,9 @@ const Gosforth = () => {
 
       <CarouselGosforth /><br />
       <iframe title="Booking" id="booksy" style={{ width: '100%', height: "500px", overflow: 'visible !important' }} src="https://booksy.com/en-gb/instant-experiences/widget/7616"></iframe>
-      <Link to="/book">Back</Link>
+      
       <MapGosforth />
+      <Link to="/book">Back</Link>
     </div>
   );
 };
