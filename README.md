@@ -14,5 +14,5 @@ I will no doubt continue to use Arran for all of my future endeavours.
 
 Believe me when I say you are in safe hands.
 
-<sup>Matthew, Owner of Made Barbers</sup>
+<small>Matthew, Owner of Made Barbers</small>
 ---
